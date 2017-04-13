@@ -2,7 +2,7 @@ package com.java.cricket.ConcreteObserver;
 
 import com.java.cricket.Observer.DisplayElement;
 import com.java.cricket.Subject.Cricket;
-import com.java.cricket.Subject.CricketData;
+import com.java.cricket.ConcreteSubject.CricketData;
 
 import java.util.List;
 

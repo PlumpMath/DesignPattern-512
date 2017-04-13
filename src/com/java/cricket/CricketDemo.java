@@ -2,7 +2,7 @@ package com.java.cricket;
 
 import com.java.cricket.ConcreteObserver.AverageScoreDisplay;
 import com.java.cricket.ConcreteObserver.CurrentScoreDisplay;
-import com.java.cricket.Subject.CricketData;
+import com.java.cricket.ConcreteSubject.CricketData;
 
 import java.util.Scanner;
 

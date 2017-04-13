@@ -1,4 +1,6 @@
-package com.java.cricket.Subject;
+package com.java.cricket.ConcreteSubject;
+
+import com.java.cricket.Subject.Cricket;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,7 +18,7 @@ public class CricketData extends Cricket {
     public void setRuns(int run) {
         this.runs.add(run);
         setRunRate();
-        notifyAllObservers();
+        super.notifyAllObservers();
     }
 
     public Double getRunRate() {

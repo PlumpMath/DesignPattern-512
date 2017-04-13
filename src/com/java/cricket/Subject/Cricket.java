@@ -16,7 +16,7 @@ public class Cricket {
         observers.remove(observer);
     }
 
-    void notifyAllObservers() {
+    protected void notifyAllObservers() {
         for (DisplayElement observer : observers) {
             observer.update();
         }
